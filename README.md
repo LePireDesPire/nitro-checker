@@ -1,11 +1,19 @@
+<div id="header" align="center">
+  <img src="https://cdn.discordapp.com/attachments/830206926733705227/1057535205772120144/MA_PP_DESSINB_1.png" width="200"/>
+</div>
+
 <div id="badges">
   <a href="https://youtube.com/@lepiredespire">
     <img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" alt="Youtube Badge"/>
+  </a>
+  <a href="https://twitch.tv/lepirelefaux">
+    <img src="https://img.shields.io/badge/Twitch-purple?logo=twitch&logoColor=white&style=for-the-badge" alt="Twitch Badge"/>
   </a>
   <a href="https://twitter.com/@lepirelefaux">
     <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
   </a>
 </div>
+
 
 # Nitro Generator/Checker
 Voici un générateur de Nitro et son checker pour les Nitros Discord totalement fonctionnel et expliqué dans son intégralité !
