@@ -53,5 +53,9 @@ Et on demande de rassembler aléatoirement le contenu de la variable "all" (qui 
 ```py
     for x in range(int(numgen)):
         nitro = ''.join(random.sample(all, lenght))
+        
+        f.write(nitro + "\n")
+        #Cette ligne là consiste à écrire le résultat de la variable "nitro" dans le fichier "nitro.txt" qu'on a ouvert juste avant
+        
         print(nitro)
 ```
