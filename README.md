@@ -1,2 +1,5 @@
-# Nitro Checker
-Voici un Nitro Checker pour les Nitros Discord totalement fonctionnel et expliqué dans son intégralité
+# Nitro Generator/Checker
+Voici un générateur de Nitro et son checker pour les Nitros Discord totalement fonctionnel et expliqué dans son intégralité !
+
+# Nitro Generator :
+
