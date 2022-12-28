@@ -143,15 +143,16 @@ for nitro, proxy in zip(nitros, proxies):
 
 ### FAQ :
 
+---
 - Q : Pourquoi j'ai besoin de proxies ?
 - A : Pour faire simple, imaginez-vous que 1 proxy est égal à une connexion Internet (ce qui n'est pas le cas). Et bien l'API de Discord n'autorise que un certain nombre d'utilisation par jour de leur API par proxy. C'est-à-dire que votre connexion Internet n'aura le droit que à un certain nombre d'utilisation après, il faudra attendre 24h pour pouvoir le ré-utiliser. Et bien l'utilité d'utiliser plusieurs connexion Internet (proxy) est de pouvoir bypass (passer) cette limitation en simulant que ce n'est pas notre connexion Internet (comme si on utilisait un VPN).
-
+---
 - Q : Pourquoi je n'ai jamais de Nitro valide ?
 - A : Car les chances d'avoir généré un Nitro valide sont extrèmement petite !
-
+---
 - Q : Mais du coup, le code ne fonctionne pas ?
 - A : Le code est bel et bien fonctionnel, si vous générez un Nitro valide et que vous le checkez, il sera détecté comme valide mais comme je l'ai dit, les chances sont extrèmement petite de tomber sur un Nitro bel et bien valide.
-
+---
 - Q : Il y a-t-il un virus/token grab ?
 - A : Vous avez juste à lire l'explication du code entier pour comprendre que le code ne présente aucun virus/token grab et que le code est bel et bien safe.
 
