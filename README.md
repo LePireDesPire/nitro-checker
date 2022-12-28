@@ -97,7 +97,7 @@ with open("nitro.txt", "w") as f:
 
 - D'abord, on importe le module "requests"
 ```py
-import random
+import requests
 ```
 ---
 - Là, on va lire les codes Nitro et les proxies depuis les fichiers
