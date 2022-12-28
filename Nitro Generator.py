@@ -9,6 +9,8 @@ lenght = 16
 
 all = upp + loww + digg
 
-for x in range(int(numgen)):
-    nitro = ''.join(random.sample(all, lenght))
+with open("nitro.txt", "w") as f:
+    for x in range(int(numgen)):
+        nitro = ''.join(random.sample(all, lenght))
+        f.write(nitro + "\n")
     print(nitro)
