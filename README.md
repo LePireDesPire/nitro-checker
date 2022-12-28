@@ -64,3 +64,43 @@ Et on demande de rassembler aléatoirement le contenu de la variable "all" (qui 
 # Nitro Checker
 
 Là on passe au chose sérieuse. Le Nitro checker, l'une des étapes les plus importantes
+
+D'abord, on importe le module "requests"
+```py
+import random
+```
+
+Là, on va lire les codes Nitro et les proxies depuis les fichiers
+```py
+with open("nitros.txt", "r") as nitrofile:
+    nitros = nitrofile.read().split("\n")
+
+with open("proxies.txt", "r") as proxiefile:
+    proxies = proxiefile.read().split("\n")
+```
+
+Ensuite, on vérifie chaque code Nitro avec chaque proxy
+```py
+for nitro, proxy in zip(nitros, proxies):
+```
+
+On prépare les paramètres de proxy
+```py
+    proxy_param = {"http://": proxy, "https://": proxy}
+```
+
+Et on effectue une requête HTTP GET avec le proxy et le code Nitro (ou plus simple, on va utiliser l'API de Discord qui permet de définir si un code Nitro est valide ou pas)
+```py
+    url = requests.get(f"https://discordapp.com/api/v6/entitlements/gift-codes/{nitro}", proxies=proxy_param, timeout=5)
+```
+
+Si la requête réussit (code de statut HTTP 200), ça va écrire le code Nitro dans un fichier texte appelé "nitrovalidcodes"
+```py
+    if url.status_code == 200:
+        with open("nitrovalidcodes.txt", "w") as nitrovalidfile:
+            nitrovalidfile.write(nitro)
+        print(f"Code Nitro valide : {nitro}")
+    # Sinon, afficher un message d'erreur
+    else:
+        print("Code Nitro non valide")
+```
