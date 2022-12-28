@@ -24,15 +24,8 @@ Voici un générateur de Nitro et son checker pour les Nitros Discord totalement
 
 ### :book: Sommaire :
 
--
-
----
-
-### :hammer_and_wrench: Les languages de programmation et les logiciels utilisé :
-<div>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/python/python-original.svg" title="Python" **alt="Python" width="40" height="40"/>&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/visualstudio/visualstudio-plain.svg" title="Visual Studio" **alt="Visual Studio" width="40" height="40"/>
-</div>
+- <a href="https://github.com/LePireDesPire/nitro-generator-checker#nitro-generator-">Nitro Generator</a>
+- <a href="https://github.com/LePireDesPire/nitro-generator-checker#nitro-checker-">Nitro Checker</a>
 
 ---
 
@@ -159,3 +152,11 @@ for nitro, proxy in zip(nitros, proxies):
 
 - Q : Il y a-t-il un virus/token grab ?
 - A : Vous avez juste à lire l'explication du code entier pour comprendre que le code ne présente aucun virus/token grab et que le code est bel et bien safe.
+
+---
+
+### :hammer_and_wrench: Les languages de programmation et les logiciels utilisé :
+<div>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/python/python-original.svg" title="Python" **alt="Python" width="40" height="40"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/visualstudio/visualstudio-plain.svg" title="Visual Studio" **alt="Visual Studio" width="40" height="40"/>
+</div>
