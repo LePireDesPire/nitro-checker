@@ -1,25 +1,19 @@
 import requests
 
 with open("nitros.txt", "r") as nitrofile:
-    nitros =nitrofile.read().split("\n")
-nitrofile.close()
+    nitros = nitrofile.read().split("\n")
 
-with open ("proxies.txt", "r") as proxiefile:
+with open("proxies.txt", "r") as proxiefile:
     proxies = proxiefile.read().split("\n")
-proxiefile.close()
 
-for i in range(len(nitros)):
-    nitro = nitros[1]
-    proxy = proxies[1]
-    ProxyParam = {"http://": proxy, "https://": proxy}
-    url = requests.get(f"https://discordapp.com/api/v6/entitlements/gift-codes/{nitro}", proxies=ProxyParam, timeout=5)
+for nitro, proxy in zip(nitros, proxies):
+    proxy_param = {"http://": proxy, "https://": proxy}
 
+    url = requests.get(f"https://discordapp.com/api/v6/entitlements/gift-codes/{nitro}", proxies=proxy_param, timeout=5)
+    
     if url.status_code == 200:
         with open("nitrovalidcodes.txt", "w") as nitrovalidfile:
             nitrovalidfile.write(nitro)
-        nitrovalidfile.close()
-        print(f"Valid code : {nitro}")
+        print(f"Code Nitro valide : {nitro}")
     else:
-        print("Nitro not valid")
-
-#By LePireDesPire#9904 :)
+        print("Code Nitro non valide")
