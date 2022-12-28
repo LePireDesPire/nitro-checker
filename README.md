@@ -29,17 +29,9 @@ Après ça, on crée un input qui va nous demander combien de code Nitro nous vo
 numgen = input('Combien de codes Nitro veux-tu generer : ')
 ```
 
-La, j'vais pas mentir, même moi je sais pas vu que j'ai eu une petit aide venant d'un ami mais sachez-le que il y a plus simple que ça :)
+Et on crée une variable contenant tous nos caractères
 ```py
-up, low, dig, = True, True, True,
-all = ""
-
-if up:
-    all += upp
-if low:
-    all += loww
-if dig:
-    all += digg
+all = upp + loww + digg
 ```
 
 On définit la longueur du code (16 pour un Nitro)
@@ -50,6 +42,11 @@ On définit la longueur du code (16 pour un Nitro)
 On définit le nombre (amout) de code voulu par numgen (le input du début du code)
 ```py
     amout = numgen
+```
+
+On ouvre un fichier appelé "nitro.txt" pour écrire tout les codes qui seront généré
+```py
+with open("nitro.txt", "w") as f:
 ```
 
 Et on demande de rassembler aléatoirement le contenu de la variable "all" (qui contient upp, loww et digg) sur une longueur de 16. Après ça on demande de print le code généré :)
