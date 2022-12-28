@@ -3,3 +3,6 @@ Voici un générateur de Nitro et son checker pour les Nitros Discord totalement
 
 # Nitro Generator :
 
+```py
+print("Test")
+```
