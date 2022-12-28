@@ -25,7 +25,7 @@ Voici un générateur de Nitro et son checker pour les Nitros Discord totalement
 ### :book: Sommaire :
 
 - <a href="https://github.com/LePireDesPire/nitro-generator-checker#nitro-generator-">Nitro Generator</a>
-- <a href="https://github.com/LePireDesPire/nitro-generator-checker#nitro-checker-">Nitro Checker</a>
+- <a href="https://github.com/LePireDesPire/nitro-generator-checker#nitro-checker">Nitro Checker</a>
 - <a href="https://github.com/LePireDesPire/nitro-generator-checker/#FAQ-">FAQ</a>
 - <a href="https://github.com/LePireDesPire/nitro-generator-checker/blob/main/README.md#hammer_and_wrench-les-languages-de-programmation-et-les-logiciels-utilis%C3%A9-">Language de programmation et logiciel utilisés</a>
 
