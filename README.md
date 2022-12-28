@@ -159,6 +159,10 @@ for nitro, proxy in zip(nitros, proxies):
 
 ### :hammer_and_wrench: Les languages de programmation et les logiciels utilisé :
 <div>
+  <a href="https://www.python.org/">
   <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/python/python-original.svg" title="Python" **alt="Python" width="40" height="40"/>&nbsp;
+  </a>
+  <a href="https://code.visualstudio.com/Download">
   <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/visualstudio/visualstudio-plain.svg" title="Visual Studio" **alt="Visual Studio" width="40" height="40"/>
+  </a>
 </div>
