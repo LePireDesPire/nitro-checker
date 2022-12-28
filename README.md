@@ -59,3 +59,8 @@ Et on demande de rassembler aléatoirement le contenu de la variable "all" (qui 
         
         print(nitro)
 ```
+
+
+#Nitro Checker
+
+Là on passe au chose sérieuse. Le Nitro checker, l'une des étapes les plus importantes
